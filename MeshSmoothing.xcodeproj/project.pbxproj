@@ -28,6 +28,13 @@
 		187F797B191BCC6300C86DD3 /* MeshSmoothing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MeshSmoothing; sourceTree = BUILT_PRODUCTS_DIR; };
 		187F797E191BCC6300C86DD3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		187F7980191BCC6300C86DD3 /* MeshSmoothing.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MeshSmoothing.1; sourceTree = "<group>"; };
+		187F7987191BCC7900C86DD3 /* Mesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = "<group>"; };
+		187F7988191BCC7900C86DD3 /* PlyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlyManager.h; sourceTree = "<group>"; };
+		187F7989191BCC7900C86DD3 /* Smooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Smooth.h; sourceTree = "<group>"; };
+		187F798A191BCC7F00C86DD3 /* Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
+		187F798B191BCF9500C86DD3 /* bunny1.ply */ = {isa = PBXFileReference; lastKnownFileType = text; path = bunny1.ply; sourceTree = "<group>"; };
+		1890C988191C644E00041F28 /* buns1.ply */ = {isa = PBXFileReference; lastKnownFileType = text; name = buns1.ply; path = ../buns1.ply; sourceTree = "<group>"; };
+		1890C98A191C6C5B00041F28 /* result3.ply */ = {isa = PBXFileReference; lastKnownFileType = text; path = result3.ply; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				187F797D191BCC6300C86DD3 /* MeshSmoothing */,
-				187F797C191BCC6300C86DD3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +61,22 @@
 				187F797B191BCC6300C86DD3 /* MeshSmoothing */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		187F797D191BCC6300C86DD3 /* MeshSmoothing */ = {
 			isa = PBXGroup;
 			children = (
+				187F798A191BCC7F00C86DD3 /* Base.h */,
+				187F7987191BCC7900C86DD3 /* Mesh.h */,
+				187F7988191BCC7900C86DD3 /* PlyManager.h */,
+				187F7989191BCC7900C86DD3 /* Smooth.h */,
 				187F797E191BCC6300C86DD3 /* main.cpp */,
 				187F7980191BCC6300C86DD3 /* MeshSmoothing.1 */,
+				187F798B191BCF9500C86DD3 /* bunny1.ply */,
+				1890C988191C644E00041F28 /* buns1.ply */,
+				1890C98A191C6C5B00041F28 /* result3.ply */,
+				187F797C191BCC6300C86DD3 /* Products */,
 			);
 			path = MeshSmoothing;
 			sourceTree = "<group>";
@@ -225,6 +240,7 @@
 				187F7986191BCC6300C86DD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
